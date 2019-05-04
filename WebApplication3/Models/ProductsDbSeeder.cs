@@ -21,17 +21,17 @@ namespace WebApplication3.Models
             context.Products.AddRange(
                 new Product
                 {
-                    Name = "Rose",
-                    Colors = "White, Yellow",
-                    IsArtificial = false,
-                    SmellLevel = 5
+                    Name = "telefon",
+                    Description = "White, Yellow",
+                    Category ="a",
+                    Price = 5
                 },
                 new Product
                 {
-                    Name = "Daisy",
-                    Colors = "Yellow, Red",
-                    IsArtificial = true,
-                    SmellLevel = 2
+                    Name = "telefon1",
+                    Description = "White, Yellow",
+                    Category = "a",
+                    Price = 5
                 }
             );
             context.SaveChanges();
